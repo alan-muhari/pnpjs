@@ -10,9 +10,9 @@ Using the drive.get() you can get the default drive from Onedrive
 ```TypeScript
 import { graph } from "@pnp/graph";
 
-const drives = await graph.users.getById('user@tenant.onmicrosoft.com').drives.get();
+const drives = await graph.users.getById('user@tenant.onmicrosoft.com').drive.get();
 
-const drives = await graph.me.drives.get();
+const drives = await graph.me.drive.get();
 
 ```
 
